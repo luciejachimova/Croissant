@@ -1,8 +1,13 @@
+body {
+  background: #333;
+}
 h1 {
   text-align: center;
+  color: #ffb000;
 }
 p {
   display: block;
+  color: white;
 }
 footer {
   text-align: center;
@@ -13,8 +18,8 @@ footer a {
   margin: 20px;
   color: #ffb000;
 }
-.p-contact {
-  text-align: center;
+p a {
+  color: #ffb000;
 }
 img {
   display: block;
@@ -22,4 +27,7 @@ img {
   max-width: 800px;
   border: 1 solid #333;
   border-radius: 15px;
+}
+.p-contact {
+  text-align: center;
 }
